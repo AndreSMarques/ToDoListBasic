@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica;
+  color: #333;
+}
+
+body {
+  background-image: url("../Img/wallpaper.jpg");
+}
+
+.todo-container {
+  background-color: aliceblue;
+  width: 450px;
+  margin: 65px auto 0;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+button {
+  background-color: #fdfdfd;
+  color: #0d3f8a;
+  border: 2px solid #0d3f8a;
+  padding: 4px 8px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button:hover{
+  background-color: #102f5e;
+  color: white;
+}
+
+button:hover i{
+  color: white;
+}
+
+button i{
+  color: #0d3f8a;
+  pointer-events: none;
+}
+
+input, select {
+  padding: 4px 8px;
+}
+
+hide {
+  display: none;
+}
+
+header {
+  text-align: center;
+  border-bottom: 1px solid black;
+  padding: 0px 16px 16px;
+}
+
+#todo-form, #edit-form {
+  padding: 16px;
+  border-bottom: 1px solid black;
+}
+
+#todo-form p, #edit-form p {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.form-control {
+  display: flex;
+  border-bottom: 1px solid black;
+  padding-bottom: 12px;
+}
+
+.form-control input{
+  margin: 1px;
+}
+
+#cancel-btn {
+  margin: 4px;
+}
+
+.hide {
+  display: none;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 16px;
+  border-bottom: 1px solid #ddd;
+}
+
+.todo h3 {
+  flex: 1;
+  font-size: 12px;
+}
+
+.todo button {
+  margin-left: 5px;
+}
+
+.done {
+  background-color: #3e505a;
+}
+
+.done h3 {
+  color: #ddd;
+  text-decoration: line-through;
+  font-style: italic;
+}
